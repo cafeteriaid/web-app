@@ -1,5 +1,7 @@
 # WEB-APP
 
+Web-App adalah aplikasi berbasis web yang dibuat dengan framework Laravel. Aplikasi ini dibuat sebagai hasil tutorial pembelajaran.
+
 ## Instalasi
 
 ```
@@ -8,6 +10,7 @@ cd web-app
 copy .env.example .env
 composer install
 php artisan key:generate
+php artisan storage:link
 ```
 
 ### Buat database web-app
@@ -43,10 +46,6 @@ php artisan serve
 ```
 
 Buka di `localhost:8080` di browser
-
-## Tentang Web-App
-
-Web-App adalah aplikasi berbasis web yang dibuat dengan framework Laravel. Aplikasi ini dibuat sebagai hasil tutorial pembelajaran. 
 
 ## License
 
